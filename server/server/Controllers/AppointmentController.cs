@@ -26,7 +26,8 @@ namespace AppointmentApi.Controllers
         [HttpGet("available-slots")]
         public IActionResult GetAvailableSlots(int doctorId, DateOnly date)
         {
-            return Ok(_appointmentService.GetAvailableSlots(doctorId, date));
+            var slots = _appointmentService.GetAvailableSlots(doctorId, date);
+            return Ok(slots);
         }
 
 

@@ -8,7 +8,7 @@ public class AppointmentService : IAppointmentService
     private readonly AppointmentContext _context;
         private readonly EmailService _emailService;
     
-        public AppointmentService(AppointmentContext context, EmailService emailService, IAppointmentService appointmentService)
+        public AppointmentService(AppointmentContext context, EmailService emailService)
         {
             _context = context;
             _emailService = emailService;
