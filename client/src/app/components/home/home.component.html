@@ -1,0 +1,37 @@
+
+
+<div class="appointment-banner">
+    <div class="appointment-text">
+      <h1>Leading Super Speciality</h1>
+      <h2>Hospitals in Hyderabad</h2>
+      <p>Get expert care from top doctors near you. Book your appointment today.</p>
+    </div>     
+    <app-appointment-form></app-appointment-form>
+</div>
+  
+  
+
+
+<div class="home-container">
+    <h2>Meet Our Doctors</h2>
+  
+    <p-carousel 
+      [value]="doctors"
+      [numVisible]="3"
+      [numScroll]="1"
+      [circular]="true"
+      [autoplayInterval]="3000"
+      [responsiveOptions]="responsiveOptions"
+    >
+      <ng-template let-doctor pTemplate="item">
+        <div class="doctor-card">
+          <img [src]="doctor.image" alt="Doctor Image" class="doctor-img" />
+          <h4>{{ doctor.name }}</h4>
+          
+          <p>{{ doctor.specialization }}</p>
+            <p>{{ doctor.experience }} years experience</p>
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+  
