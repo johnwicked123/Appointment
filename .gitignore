@@ -10,6 +10,9 @@ client/.env
 client/.vscode/
 
 # Ignore .NET build outputs
+server/.vs/
+server*.user
+*.suo
 server/bin/
 server/obj/
 
