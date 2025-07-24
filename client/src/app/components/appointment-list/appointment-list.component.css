@@ -1,0 +1,35 @@
+.appointments-container {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #3f51b5;
+    }
+  
+    table {
+      width: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+  
+    th.mat-header-cell {
+      background-color: #3f51b5;
+      color: white;
+      font-weight: bold;
+    }
+  
+    td.mat-cell {
+      padding: 12px;
+    }
+  
+    tr.mat-row:nth-child(odd) {
+      background-color: #f4f4f4;
+    }
+  }
+  

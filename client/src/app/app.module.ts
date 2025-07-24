@@ -18,9 +18,13 @@ import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 //primeNG Imports
 import {CarouselModule} from 'primeng/carousel';
+import { AppointmentListComponent } from './components/appointment-list/appointment-list.component';
 
 
 @NgModule({
@@ -28,7 +32,8 @@ import {CarouselModule} from 'primeng/carousel';
     AppComponent,
     NavBarComponent,
     HomeComponent,
-    AppointmentFormComponent
+    AppointmentFormComponent,
+    AppointmentListComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +49,10 @@ import {CarouselModule} from 'primeng/carousel';
     MatNativeDateModule,
     ReactiveFormsModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatDialogModule,
+    MatTableModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
