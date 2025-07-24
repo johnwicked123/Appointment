@@ -1,3 +1,13 @@
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d6f9d6aa-716a-4ba8-aadf-d73a018e630a" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b7a99d03-8f76-4781-962f-de5e32442069" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/835ce853-d1ab-4bb6-ba58-a05e7a46a32b" />
+
+
+
+
+
 # 🩺 Appointment Booking App (Angular + .NET 8 + Docker)
 
 This is a full-stack appointment booking application built with:
