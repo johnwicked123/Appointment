@@ -37,6 +37,7 @@ Before you run the application, make sure the following are installed on your sy
 
 ## 🗂️ Project Structure
 
+```text
 appointment-app/
 ├── client/ # Angular frontend
 │ └── Dockerfile
@@ -46,7 +47,7 @@ appointment-app/
 │ └── appsettings.json # MUST be created manually
 ├── docker-compose.yml
 └── README.md
-
+```
 
 
 ---
@@ -58,6 +59,7 @@ The backend (`server/`) requires an `appsettings.json` file for SMTP settings.
 ### ➕ You MUST create `server/appsettings.json`
 
 Here’s an example structure:
+```json
 {
   "Logging": {
     "LogLevel": {
@@ -76,14 +78,15 @@ Here’s an example structure:
   }
 
 }
-
+```
 🐳 Running the App with Docker Compose
 Make sure Docker is running
 
 From the root of the project, run the following command:
 
+```bash
 docker-compose up --build
-
+```
 Builds both Angular and .NET images
 
 Starts the containers
@@ -93,15 +96,17 @@ Connects them using Docker Compose networking
 🧰 Manual Commands (Optional)
 🔨 Build Angular App Manually (outside Docker)
 
+```bash
 cd client
 npm install
 ng build --prod
-
+```
 
 🧪 Run .NET API Locally (without Docker)
 
+```bash
 cd server
 dotnet run
-
+```
 
 
