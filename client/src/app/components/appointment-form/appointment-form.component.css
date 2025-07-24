@@ -1,0 +1,29 @@
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    color: black;
+    min-width: 400px;
+  }
+  
+
+  ::ng-deep mat-form-field {
+    height: 50px !important;  
+  }
+  
+  .book-appointment-button:hover {
+    background-color: #2e7d32 !important;
+    color: white !important;
+  }
+
+  .book-appointment-button{
+    background-color: #332e7d !important;
+    color: white !important;
+  }
+  
