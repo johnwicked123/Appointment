@@ -9,7 +9,7 @@ import { Appointment } from '../models/appointment.model';
 })
 export class AppointmentService {
 
-  private baseUrl = 'http://localhost:5284/api/Appointment';
+  private baseUrl = 'http://localhost:5000/api/Appointment';
 
   constructor(private http: HttpClient) {}
 

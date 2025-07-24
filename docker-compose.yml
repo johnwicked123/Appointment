@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: ./server/server
+    ports:
+      - "5000:5000"
+    networks:
+      - appnet
+
+  frontend:
+    build:
+      context: ./client
+    ports:
+      - "4200:80"
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: bridge
