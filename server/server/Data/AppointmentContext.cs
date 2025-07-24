@@ -1,8 +1,7 @@
 ﻿using server.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 
-namespace AppointmentBooking.Data
+namespace server.Data
 {
     public class AppointmentContext : DbContext
     {

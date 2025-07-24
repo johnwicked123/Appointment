@@ -23,8 +23,11 @@ Thumbs.db
 *.sln.docstates
 
 # Build results
+*appsettings.json
 **/bin/
 **/obj/
+server/server/appsettings.json/
+server/server/appsettings.*.json
 
 # VS Code settings
 server/.vs/
